@@ -1,9 +1,9 @@
 #CRIAR ROTAS NO SITE (LINKS)
 from flask import render_template, url_for, redirect
-from fakepinterest import app, database, bcrypt
+from Lioris import app, database, bcrypt
 from flask_login import login_required, login_user, logout_user, current_user
-from fakepinterest.forms import FormCriarConta, FormLogin, FormFoto
-from fakepinterest.models import Usuario, Foto
+from Lioris.forms import FormCriarConta, FormLogin, FormFoto
+from Lioris.models import Usuario, Foto
 import os
 from werkzeug.utils import secure_filename
 

@@ -12,4 +12,4 @@ bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)
 login_manager.login_vier = 'homepage'
 
-from fakepinterest import routes
+from Lioris import routes

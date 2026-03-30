@@ -1,5 +1,5 @@
 #CRIAR A ESTRUTURA DO BANCO DE DADOS
-from fakepinterest import database, login_manager
+from Lioris import database, login_manager
 from datetime import datetime, UTC
 from flask_login import UserMixin
 
