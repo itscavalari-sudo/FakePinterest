@@ -33,7 +33,7 @@ git clone https://github.com/itscavalari-sudo/Lioris
 
 2. Entre na pasta do projeto
 
-cd lioris
+Lioris
 
 3. Crie um ambiente virtual
 
