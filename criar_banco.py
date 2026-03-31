@@ -1,5 +1,5 @@
-from fakepinterest import database, app
-from fakepinterest.models import Usuario, Foto
+from Lioris import database, app
+from Lioris.models import Usuario, Foto
 
 with app.app_context():
     database.create_all()
